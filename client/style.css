@@ -1,0 +1,30 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    height: 100dvh;
+    overflow: hidden;
+    position: fixed;
+}
+
+#canvas-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    border: 1px solid black;
+}
+
+#controller-canvas {
+    width: 100%;
+    height: 100%;
+    display: block;
+    box-sizing: border-box;
+    border: 0.1vh solid red;
+    touch-action: none;
+}
